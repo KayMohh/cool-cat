@@ -43,6 +43,8 @@ h1 {
 .image {
   width: 60%;
   transform: rotate(29deg);
+  position: absolute;
+  right: 30%
 }
 
 h3 {
@@ -57,6 +59,9 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -117,6 +122,9 @@ h2 {
   padding: 7% 15%;
 }
 
+.card-body {
+  height: 5rems;
+}
 
 
 #pricing {
@@ -126,4 +134,44 @@ h2 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.foot {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 100px;
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+
+.true-love {
+  margin-bottom: 3%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 10px;
+
+}
+
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+}
+
+  .image {
+    position: static;
+    transform: rotate(0);
+  }
 }
